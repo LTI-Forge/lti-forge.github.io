@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Rounded dark background -->
+  <rect width="100" height="100" rx="18" fill="#1e293b" />
+
+  <!-- Hammer handle: diagonal, upper-right to lower-left -->
+  <line
+    x1="75"
+    y1="20"
+    x2="49"
+    y2="46"
+    stroke="#cbd5e1"
+    stroke-width="5.5"
+    stroke-linecap="round"
+  />
+
+  <!-- Hammer head: perpendicular block at top of handle -->
+  <rect
+    x="63"
+    y="9"
+    width="25"
+    height="13"
+    rx="3"
+    fill="#cbd5e1"
+    transform="rotate(-43 75 16)"
+  />
+
+  <!-- Orange sparks at the strike point -->
+  <line
+    x1="36"
+    y1="44"
+    x2="29"
+    y2="35"
+    stroke="#fb923c"
+    stroke-width="2.5"
+    stroke-linecap="round"
+  />
+  <line
+    x1="44"
+    y1="41"
+    x2="42"
+    y2="32"
+    stroke="#fb923c"
+    stroke-width="2.5"
+    stroke-linecap="round"
+  />
+  <line
+    x1="52"
+    y1="43"
+    x2="59"
+    y2="35"
+    stroke="#fb923c"
+    stroke-width="2.5"
+    stroke-linecap="round"
+  />
+  <line
+    x1="55"
+    y1="50"
+    x2="63"
+    y2="47"
+    stroke="#fb923c"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+
+  <!-- Code symbol </> being forged -->
+  <path
+    d="M22,53 L12,65 L22,77"
+    stroke="#ea580c"
+    stroke-width="4.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <line
+    x1="34"
+    y1="53"
+    x2="27"
+    y2="77"
+    stroke="#ea580c"
+    stroke-width="4.5"
+    stroke-linecap="round"
+  />
+  <path
+    d="M40,53 L52,65 L40,77"
+    stroke="#ea580c"
+    stroke-width="4.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

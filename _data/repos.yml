@@ -1,0 +1,11 @@
+- name: lti-forge.github.io
+  description: Central hub and project directory for the LTI Forge community.
+  type: Hub
+  frameworks:
+    - Deno
+    - Lume
+  year: 2026
+  license: MIT
+  docs: "https://ltiforge.org"
+  repo: "https://github.com/LTI-Forge/lti-forge.github.io"
+  status: active
