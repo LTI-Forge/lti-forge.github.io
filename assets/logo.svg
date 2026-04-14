@@ -1,89 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
-  <!-- Rounded dark background -->
-  <rect width="100" height="100" rx="18" fill="#1e293b" />
+  <rect width="100" height="100" rx="18" fill="#1e293b"/>
 
-  <!-- Hammer handle: diagonal, upper-right to lower-left -->
-  <line
-    x1="75"
-    y1="20"
-    x2="49"
-    y2="46"
-    stroke="#cbd5e1"
-    stroke-width="5.5"
-    stroke-linecap="round"
-  />
+  <!-- Anvil face + horn.
+       Face: x=26–78, right side has a rounded corner.
+       Horn tip at (6,27); top edge is a straight line up to the face;
+       bottom edge is a quadratic bezier that sweeps left then curves up to the tip. -->
+  <path fill="#e2e8f0" d="
+    M 6,27
+    L 26,12 L 78,12
+    Q 84,12 84,20 L 84,38
+    Q 84,44 78,44 L 26,44
+    Q 14,44 6,27 Z
+  "/>
 
-  <!-- Hammer head: perpendicular block at top of handle -->
-  <rect
-    x="63"
-    y="9"
-    width="25"
-    height="13"
-    rx="3"
-    fill="#cbd5e1"
-    transform="rotate(-43 75 16)"
-  />
-
-  <!-- Orange sparks at the strike point -->
-  <line
-    x1="36"
-    y1="44"
-    x2="29"
-    y2="35"
-    stroke="#fb923c"
-    stroke-width="2.5"
-    stroke-linecap="round"
-  />
-  <line
-    x1="44"
-    y1="41"
-    x2="42"
-    y2="32"
-    stroke="#fb923c"
-    stroke-width="2.5"
-    stroke-linecap="round"
-  />
-  <line
-    x1="52"
-    y1="43"
-    x2="59"
-    y2="35"
-    stroke="#fb923c"
-    stroke-width="2.5"
-    stroke-linecap="round"
-  />
-  <line
-    x1="55"
-    y1="50"
-    x2="63"
-    y2="47"
-    stroke="#fb923c"
-    stroke-width="2"
-    stroke-linecap="round"
-  />
-
-  <!-- Code symbol </> being forged -->
-  <path
-    d="M22,53 L12,65 L22,77"
-    stroke="#ea580c"
-    stroke-width="4.5"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-  />
-  <line
-    x1="34"
-    y1="53"
-    x2="27"
-    y2="77"
-    stroke="#ea580c"
-    stroke-width="4.5"
-    stroke-linecap="round"
-  />
-  <path
-    d="M40,53 L52,65 L40,77"
-    stroke="#ea580c"
-    stroke-width="4.5"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-  />
+  <!-- Waist (hourglass) + base.
+       Shoulder: waist top is x=28–72, narrower than the face (x=26–78).
+       Cubic S-curves pull the sides inward to ~x=36–64 at mid-waist
+       then sweep dramatically outward to the base.
+       Base: rounded rect x=14–86. -->
+  <path fill="#e2e8f0" d="
+    M 28,44 L 72,44
+    C 70,50 62,56 78,66
+    L 82,66 Q 86,66 86,72 L 86,84
+    Q 86,88 82,88 L 18,88
+    Q 14,88 14,84 L 14,72
+    Q 14,66 18,66 L 22,66
+    C 38,56 30,50 28,44 Z
+  "/>
 </svg>
